@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://xiaoyaoge.github.io
 root: /
-permalink: :title
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -85,3 +85,6 @@ deploy:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
+
+# 分享功能
+duoshuo_share: true

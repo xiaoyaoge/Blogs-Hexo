@@ -19,26 +19,10 @@
     #}{{ totalcount(site, '0,0.0a') }}{#
   #}</span>
   {% endif %}
+  <div>
+  业余时间维护的个人博客
+  </div>
 </div>
-{% if theme.footer.powered %}
-  <div class="powered-by">{#
-  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
-#}</div>
-{% endif %}
-
-{% if theme.footer.powered and theme.footer.theme.enable %}
-  <span class="post-meta-divider">|</span>
-{% endif %}
-
-{% if theme.footer.theme.enable %}
-  <div class="theme-info">{#
-  #}{{ __('footer.theme') }} &mdash; {#
-  #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
-    #}NexT.{{ theme.scheme }}{#
-  #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
-#}</div>
-{% endif %}
-
 {% if theme.footer.custom_text %}
   <div class="footer-custom">{#
   #}{{ theme.footer.custom_text }}{#
