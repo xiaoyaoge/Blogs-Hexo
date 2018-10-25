@@ -9,6 +9,7 @@ comments: false
 ### 对象的使用和属性
 javascript中所有的变量都可以当成对象来使用，但是有两个除外，null 和 undefined。
 <!-- more -->
+
 ``` javascript
 false.toString(); // 'false'
 [1, 2, 3].toString(); // '1,2,3'
